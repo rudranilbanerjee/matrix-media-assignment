@@ -1,0 +1,104 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.navbar-custom .navbar-brand a,
+.navbar-custom .nav-link,
+.navbar-custom .navbar-toggler-icon,
+.navbar-custom .nav-dropdown-item a,
+.navbar-custom .navbar-collapse a{
+  color: #fff;
+}
+
+.navbar-custom {
+  background-color: rgb(113 44 249);
+}
+
+
+.login_container{
+  max-width:400px;
+  padding:30px;
+  /* border:1px solid gray; */
+  border-radius: 8px;
+  background-color: rgb(113 44 249);
+  color:#fff;
+  box-shadow: 22px 19px 24px rgb(22 22 22 / 10%)
+}
+.login_container h2{
+  text-align: center;
+}
+
+.login-btn{
+  background-color: #120aa5;
+  width:100%;
+  margin:auto;
+}
+
+.blog-list-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.blog-list-item:hover {
+  transform: translateY(-3px); 
+}
+
+
+.blog_content{
+  border:1px solid rgb(113 44 249);
+  border-radius: 8px;
+  padding:10px 10px;
+  min-height: 50px;
+  max-height: fit-content;
+}
+
+.blog_title{
+  display: flex;
+  gap:30px;
+}
+
+
+.icon_btn{
+  background-color: transparent;
+  color:rgb(113 44 249);
+  border: none;
+  padding: 0px;
+  margin:0px 10px;
+  font-size: 20px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this as needed */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent background */
+  z-index: 9999; /* Ensure it is on top */
+}
+
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-inline {
+  display: inline-flex;
+  height: auto;
+  width: auto;
+  background: none; /* No background for inline loader */
+  position: static; /* No absolute positioning for inline loader */
+}
